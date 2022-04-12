@@ -13,7 +13,8 @@
       "launchBrowser": true,
       "launchUrl": "https://localhost:7260/Home/Page",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
       },
       "applicationUrl": "https://localhost:7260;http://localhost:5260",
       "dotnetRunMessages": true
@@ -23,7 +24,8 @@
       "launchBrowser": true,
       "launchUrl": "https://localhost:7260/Home/Page",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
       }
     }
   }
